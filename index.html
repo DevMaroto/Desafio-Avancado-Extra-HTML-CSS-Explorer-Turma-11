@@ -16,23 +16,66 @@
       <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
       <img src="./imgs/img1.png" alt="">
     </header>
+
+    <div class="legend">      
+      <legend>Informações Pessoais</legend>
+    </div>
+
     <form action="">
       <fieldset>
 
-        <div class="legend">      
-          <legend>Informações Pessoais</legend>
+        <div class="wrapper-name">
+          <div class="box-name">
+            <label for="">Nome</label>
+            <input class="input-length" type="text">
+          </div>
+  
+          <div class="box-name">
+            <label for="">Sobrenome</label>
+            <input class="input-length" type="text">
+          </div>
         </div>
 
-        <div>
-          <label for=""></label>
+        <div class="input-wrapper">
+          <label for="">Email (Digite um email válido)</label>
           <input type="text">
         </div>
 
+      </fieldset>
+      <fieldset>
+
         <div>
-          <label for=""></label>
+          <legend class="legend-2">Informações do mentor</legend>
+        </div>
+
+        <div class="input-wrapper">
+          <label for="">Selecione quem foi o seu mentor</label>
+          <input class="input-mentor" type="text">
+        </div> 
+
+        <div class="input-wrapper">
+          Feedback sobre o mentor
+          <textarea id="">
+            
+          </textarea>
+        </div>
+
+        <div class="input-wrapper-checkbox">
+          <input type="checkbox" id="mentor-check">
+          <label for="mentor-check">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+        <div>
+          <legend class="legend-3">Agendando próxima mentoria</legend>
+        </div>
+
+        <div class="input-wrapper">
+          <label for="">Email (Digite um email válido)</label>
           <input type="text">
         </div>
-        
       </fieldset>
     </form>
   </div>
