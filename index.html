@@ -26,19 +26,19 @@
 
         <div class="wrapper-name">
           <div class="box-name">
-            <label for="">Nome</label>
-            <input class="input-length" type="text">
+            <label for="mentory-name">Nome</label>
+            <input class="input-length" id="mentory-name" type="text" required>
           </div>
   
           <div class="box-name">
-            <label for="">Sobrenome</label>
-            <input class="input-length" type="text">
+            <label for="mentory-surname">Sobrenome</label>
+            <input class="input-length" id="mentory-surname" type="text" required>
           </div>
         </div>
 
         <div class="input-wrapper">
-          <label for="">Email <span>(Digite um email válido)</span></label>
-          <input type="text">
+          <label for="mentory-email">Email <span>(digite um email válido)</span></label>
+          <input type="email" id="mentory-email" required>
         </div>
 
       </fieldset>
@@ -49,19 +49,19 @@
         </div>
 
         <div class="input-wrapper">
-          <label for="">Selecione quem foi o seu mentor</label>
-          <input class="input-mentor" type="text">
+          <label for="name-mentor">Selecione quem foi o seu mentor</label>
+          <input class="input-mentor" id="name-mentor" type="text" required>
         </div> 
 
         <div class="input-wrapper">
-          <div class="div-feedback-text">Feedback sobre o mentor</div>  
-          <textarea id="">
+          <label for="mentor-feedback" class="div-feedback-text">Feedback sobre o mentor</label>  
+          <textarea id="mentor-feedback">
             
           </textarea>
         </div>
 
         <div class="input-wrapper-checkbox">
-          <input type="checkbox" id="mentor-check">
+          <input type="checkbox" id="mentor-check" required>
           <label for="mentor-check">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
         </div>
 
@@ -75,18 +75,18 @@
         <div class="col-time">
 
           <div class="input-wrapper">
-            <label for="">Data <span>(DD/MM/AAAA)</span></label>
-            <input type="date">
+            <label for="mentory-date">Data <span>(DD/MM/AAAA)</span></label>
+            <input type="date" id="mentory-date" required>
           </div>
   
           <div class="input-wrapper">
-            <label for="">Das</label>
-            <input type="time">
+            <label for="mentory-time">Das</label>
+            <input type="time" id="mentory-time" required>
           </div>
   
           <div class="input-wrapper">
-            <label for="">Até</label>
-            <input type="time">
+            <label for="mentory-time-2">Até</label>
+            <input type="time" id="mentory-time-2" required>
           </div>
 
         </div>
