@@ -118,6 +118,7 @@ span {
   font-size: 12px;
   line-height: 20px;
   color: #c1bccc;
+  margin-left: 8px;
 }
 
 fieldset .legend-2 {
@@ -188,8 +189,7 @@ textarea {
 
 .col-time {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 64px;
+  margin-bottom: 32px;
 }
 
 .col-time > div:nth-child(1) {
@@ -198,11 +198,12 @@ textarea {
 
 .col-time > div:nth-child(2) {
   width: 140px;
-  margin-left: 10px;
+  margin-left: 32px;
 }
 
 .col-time > div:nth-child(3) {
   width: 140px;
+  margin-left: 10px;
 }
 
 #input-submit-form {
