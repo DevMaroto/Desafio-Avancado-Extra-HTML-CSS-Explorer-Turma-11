@@ -37,7 +37,7 @@
         </div>
 
         <div class="input-wrapper">
-          <label for="">Email (Digite um email válido)</label>
+          <label for="">Email <span>(Digite um email válido)</span></label>
           <input type="text">
         </div>
 
@@ -54,7 +54,7 @@
         </div> 
 
         <div class="input-wrapper">
-          Feedback sobre o mentor
+          <div class="div-feedback-text">Feedback sobre o mentor</div>  
           <textarea id="">
             
           </textarea>
@@ -72,11 +72,28 @@
           <legend class="legend-3">Agendando próxima mentoria</legend>
         </div>
 
-        <div class="input-wrapper">
-          <label for="">Email (Digite um email válido)</label>
-          <input type="text">
+        <div class="col-time">
+
+          <div class="input-wrapper">
+            <label for="">Data <span>(DD/MM/AAAA)</span></label>
+            <input type="date">
+          </div>
+  
+          <div class="input-wrapper">
+            <label for="">Das</label>
+            <input type="time">
+          </div>
+  
+          <div class="input-wrapper">
+            <label for="">Até</label>
+            <input type="time">
+          </div>
+
         </div>
       </fieldset>
+
+      <input id="input-submit-form" type="submit" value="SALVAR">
+
     </form>
   </div>
 </body>
