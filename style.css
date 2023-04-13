@@ -39,9 +39,14 @@ h1 {
   color: #ffffff;
 }
 
+p,
+label,
+.div-feedback-text {
+  font-family: "Poppins";
+}
+
 p {
   color: #ffffff;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -109,6 +114,12 @@ fieldset {
   margin-bottom: 8px;
 }
 
+span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #c1bccc;
+}
+
 fieldset .legend-2 {
   font-size: 24px;
   line-height: 34px;
@@ -130,6 +141,7 @@ textarea {
 
 .input-wrapper-checkbox {
   position: relative;
+  margin-bottom: 36px;
 }
 
 .input-wrapper-checkbox label {
@@ -162,4 +174,55 @@ textarea {
 
 .input-wrapper-checkbox input:focus + label::before {
   outline: 2px solid black;
+}
+
+.legend-3 {
+  font-size: 24px;
+  line-height: 34px;
+  color: #253b51;
+  border-bottom: 1px solid #e6e6f0;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.col-time {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.col-time > div:nth-child(1) {
+  width: 300px;
+}
+
+.col-time > div:nth-child(2) {
+  width: 140px;
+  margin-left: 10px;
+}
+
+.col-time > div:nth-child(3) {
+  width: 140px;
+}
+
+#input-submit-form {
+  font-family: "Staatliches", cursive;
+  padding: 13px 286px;
+  background: #f67669;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+input,
+textarea {
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#input-submit-form:hover {
+  background: #d55043;
 }
