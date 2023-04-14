@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Desafio realizado para reforçar habilidades adquiridas no Stage 3.
 
-- [Acesse o projeto finalizado, online]()
+- [Acesse o projeto finalizado, online](https://desafio-avancado-extra-html-css-explorer-turma-11.vercel.app/)
 
 ## 🔖 Layout
 
